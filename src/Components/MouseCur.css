@@ -1,0 +1,19 @@
+
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #95C11E;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -1;
+}
+
+#cursor-blur{
+    height: 300px;
+    width: 300px;
+    background-color: #96c11e3c;
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(40px);
+    z-index: 9;
+}

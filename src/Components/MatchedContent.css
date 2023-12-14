@@ -1,0 +1,57 @@
+.html_btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.html_btn a{
+    display: block;
+    font-size: 17px;
+    padding: 7px 10px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.wrapper_html_home{
+    display: flex;
+    /* width: 100%; */
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.wrapper_html_home::-webkit-scrollbar{
+    display: none;
+}
+
+.html_heading{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.wrapper_html_content{
+    width: 95%;
+    padding: 20px;
+    /* padding-right: 40px; */
+    margin-right:60px ;
+}
+
+.wrapper_html_heading{
+    padding: 20px 0px;
+}
+
+.wrapper_html_home_body{
+      height: 80vh;
+}
+
+.content_html{
+    font-size: 13px;
+    width: 90%;
+}
+
+.container_courses{
+    width: 5%;
+}
+

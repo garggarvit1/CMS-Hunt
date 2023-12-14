@@ -1,0 +1,33 @@
+body{
+    background: radial-gradient(#3B3B3B,#1D1D1E,#111111);
+    height: 100vh;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+   background-color: #1D1D1E;
+   
+  
+}
+.card:hover{
+    box-shadow: 9px 10px 10px 4px rgba(222, 220, 220, 0.321) !important;
+
+}
+
+.image >img{
+    height: 5rem;
+}
+.card-size{
+    height: 5%;
+    font-size: 11px;
+    text-align: left;
+    padding: 1rem 1rem!important;
+}
+
+.anchor{
+    text-decoration: none;
+}
+.card-title{
+    font-size: 14px;
+}

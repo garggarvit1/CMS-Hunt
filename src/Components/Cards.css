@@ -1,0 +1,23 @@
+.card-background{
+    /* width: 70%; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain{
+    /* height: 55vh; */
+    /* width: 1; */
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain-card{
+    background:linear-gradient(#2B2B2B,#131313);
+    width: 55%;
+    height: 75%;
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+/* #2B2B2B,#1B1B1B */
