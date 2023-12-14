@@ -9,20 +9,25 @@
     justify-content: center;
     border-top: 1px solid #fff;
     z-index: 99;
+    overflow-x: scroll;
 
 }
 .horizontal_wrapper ul{
     /* display: flex; */
     align-items: center;
+    
+}
+.horizontal_wrapper::-webkit-scrollbar{
+    display: none;
 }
 
-.horizontal_btn{
+/* .horizontal_btn{
     display: inline-block;
 }
 
 .horizontal_btn>img{
     height: 29px;
-}
+} */
 
 .horizontal_Nav_left{
 display: flex;
@@ -35,7 +40,7 @@ display: flex;
 
 }
 .horizontal_nav_item{
-    display:inline-block;
+    /* display:inline-block; */
     padding:0px 9px;
     font-size: 13px;
 }
